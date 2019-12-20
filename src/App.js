@@ -28,8 +28,8 @@ class App extends React.Component {
   }
 
   counter = id => {
-    this.state.cards.find((j, i) => {
-      if (j.id === id) {
+    this.state.cards.find((match, i) => {
+      if (match.id === id) {
         if (cards[i].count === 0) {
           cards[i].count = cards[i].count + 1;
           this.setState({ score: this.state.score + 1 }, function () {
