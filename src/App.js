@@ -9,27 +9,30 @@ class App extends React.Component {
 
   state = {
     cards,
-    height: "200px",
-    width: "200px",
     score: 0,
     highscore: 0
   };
- 
+
 
 
   render() {
-    
+
     return (
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}>Memory Game</Header>
-        {this.state.cards.map(card => (
-          <Card
 
-            id={card.id}
-            key={card.id}
-            image={card.image}
-          />
-        ))}
+        <div className="container">
+          <div className="row">
+              {this.state.cards.map(card => (
+                <Card
+
+                  id={card.id}
+                  key={card.id}
+                  image={card.image}
+                />
+              ))}
+          </div>
+        </div>
       </Wrapper>
     );
   }

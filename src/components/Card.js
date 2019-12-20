@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Card = props => (
-  <div className="card" onClick={() => props.counter(props.id)}>
+  <div className="card col-3 border-0" onClick={() => props.counter(props.id)}>
     <div className="img-container">
       <img alt={props.name} src={props.image} />
     </div>
