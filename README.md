@@ -6,7 +6,11 @@ This is a memory game built using React. You can only click each card once. Clic
 
 Check out the game here: https://jeanshotjack.github.io/clicky-game/
 
-##
+## Style
+
+The page is meant to imitate a golden threat tarot card. The cards are all spaced out evenly and the page is responsive for different screen sizes.
+
+![Image of main page](/public/mainpage.png)
 
 
 ## How It Works
