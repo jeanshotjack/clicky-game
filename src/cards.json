@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "name": "The Fool",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-fool.jpg",
+      "count": 0
+    },
+    {
+      "id": 2,
+      "name": "The Magician",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-magician.jpg",
+      "count": 0
+    },
+    {
+      "id": 3,
+      "name": "The High Priestess",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-highpriestess.jpg",
+      "count": 0
+    },
+    {
+      "id": 4,
+      "name": "The Empress",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-empress.jpg",
+      "count": 0
+    },
+    {
+      "id": 5,
+      "name": "The Emperor",
+      "image": "hhttps://www.tarotcardmeanings.net/images/tarotcards120px/tarot-emperor.jpg",
+      "count": 0
+    },
+    {
+      "id": 6,
+      "name": "The Hierophant",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-hierophant.jpg",
+      "count": 0
+    },
+    {
+      "id": 7,
+      "name": "The Lovers",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-lovers.jpg",
+      "count": 0
+    },
+    {
+      "id": 8,
+      "name": "The Chariot",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-chariot.jpg",
+      "count": 0
+    },
+    {
+      "id": 9,
+      "name": "Strength",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-strength.jpg",
+      "count": 0
+    },
+    {
+      "id": 10,
+      "name": "The Hermit",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-hermit.jpg",
+      "count": 0
+    },
+    {
+      "id": 11,
+      "name": "Wheel of Fortune",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-wheeloffortune.jpg",
+      "count": 0
+    },
+    {
+      "id": 12,
+      "name": "Justice",
+      "image": "https://www.tarotcardmeanings.net/images/tarotcards120px/tarot-justice.jpg",
+      "count": 0
+    }
+  ]
