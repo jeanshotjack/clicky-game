@@ -49,15 +49,15 @@ class App extends React.Component {
 
     return (
       <Wrapper>
-        <div className="bg-warning p-6">
+        <div className="main m-6">
         <div className="container m-4">
           <Header score={this.state.score} highscore={this.state.highscore}>
             <h1>Tarot Memory Game</h1>
           </Header>
         </div>
-        </div>
 
-        <div className="bg-light container mt-4">
+
+        <div className="container mt-4">
           <div className="row">
             {this.state.cards.map(card => (
               <Card
@@ -67,6 +67,7 @@ class App extends React.Component {
                 image={card.image}
               />
             ))}
+            </div>
           </div>
         </div>
       </Wrapper>
