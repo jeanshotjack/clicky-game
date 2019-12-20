@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
+import css from "./App.css";
 
 
 class App extends React.Component {
@@ -48,11 +49,15 @@ class App extends React.Component {
 
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>
-          <h1>Memory Game</h1>
-        </Header>
+        <div className="bg-warning p-6">
+        <div className="container m-4">
+          <Header score={this.state.score} highscore={this.state.highscore}>
+            <h1>Tarot Memory Game</h1>
+          </Header>
+        </div>
+        </div>
 
-        <div className="container">
+        <div className="bg-light container mt-4">
           <div className="row">
             {this.state.cards.map(card => (
               <Card
